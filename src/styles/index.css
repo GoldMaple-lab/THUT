@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* ตั้งค่า Default Font ทั้งเว็บ */
+body {
+  font-family: 'Sarabun', sans-serif;
+  background-color: #f8fafc; /* สีพื้นหลัง default */
+  overflow-x: hidden; /* ป้องกัน scroll แนวนอน */
+}
+
+/* Custom Scrollbar (สวยงามตอนเลื่อน Map ยาวๆ) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
